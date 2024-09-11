@@ -1,0 +1,54 @@
+
+	Experiment 1:
+
+
+
+Title:
+Network Configuration and Troubleshooting Using Cisco Packet Tracer
+
+Objective:
+The goal of this experiment is to design, configure, and troubleshoot a simple network topology using Cisco Packet Tracer. The experiment demonstrates the process of setting up devices, assigning IP addresses, configuring routing protocols, and testing connectivity between devices.
+
+Equipment/Software:
+Cisco Packet Tracer (software)
+Devices: Routers, Switches, PCs, and Servers (within Packet Tracer)
+Ethernet cables, Serial connections (virtual)
+Network Topology:
+The network consists of:
+
+Two routers connected via a serial link.
+Two switches, each connected to a router.
+Two PCs connected to each switch.
+Optional: A server connected to one of the switches.
+Procedure:
+Create Network Topology:
+
+Place two routers, two switches, and four PCs on the workspace.
+Connect the devices using the appropriate cables:
+Router 1 to Switch 1
+Router 2 to Switch 2
+PCs to the corresponding switches
+Use a serial connection between Router 1 and Router 2.
+Configure Device Interfaces:
+
+Assign IP addresses to each PC and router interface according to a predefined IP addressing scheme (e.g., 192.168.1.x for one network and 192.168.2.x for another).
+Make sure subnet masks are correctly set, typically using /24 (255.255.255.0).
+Routing Configuration:
+
+On each router, configure static or dynamic routing (such as RIP or OSPF) to enable communication between different networks (i.e., the two networks connected to Router 1 and Router 2).
+Verify Connectivity:
+
+Use the ping command from one PC to check if it can reach the other PCs on the same and different networks.
+Check the routing tables on the routers to ensure that routes are correctly configured.
+Troubleshooting:
+
+If the ping fails, troubleshoot by:
+Checking cable connections.
+Verifying IP addresses and subnet masks.
+Checking routing configurations and protocols.
+Ensuring that all interfaces are activated (no shutdown).
+Results:
+Successful communication between all devices indicates proper network configuration.
+Analyze any failed ping tests and the troubleshooting process to resolve the issues.
+Conclusion:
+This experiment demonstrates how to set up and configure a simple network using Cisco Packet Tracer. It reinforces the concepts of IP addressing, routing protocols, and basic troubleshooting techniques in networking.
