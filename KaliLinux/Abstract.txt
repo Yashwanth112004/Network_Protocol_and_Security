@@ -11,6 +11,8 @@ Key areas covered include:
 4.	Security Solutions: Presenting strategies to defend against phishing, including the use of multi-factor authentication (MFA), secure email gateways, and employee education.
 The outcomes of this project are expected to raise awareness about the dangers of phishing and provide insight into cybersecurity defences against mass mailer-based attacks. 
 It aims to provide a comprehensive understanding of the attack lifecycle, along with hands-on experience in both offensive and defensive cybersecurity techniques.
+
+
 TEAM MEMBERS:
 K. Shourya – 2320090003
 P. Yashwanth – 2320090012
